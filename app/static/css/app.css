@@ -128,23 +128,31 @@ button:hover{
 .ComplaintArea{
     display: flex;
     flex-direction: row;  
+    /* padding: 50px; */
+    /* margin: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    border-radius: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .First{
     background-color: rgb(0, 153, 255);
     border-radius: 2% 0px 0px 20%;
-    padding: 20px;
+    padding: 10px;
     padding-left: 50px;
+    padding-right: 40px;
     text-align: center;
     background-image: linear-gradient(to right, rgb(123, 198, 248), rgb(0, 153, 255));
     padding-top: 200px;
     color: white;
+    box-shadow: 0 10px 25px rgb(9, 73, 110)
 }
 
 .First h1{
     animation-name: cool;
     animation-duration: 8s;
-    animation-iteration-count: 10;
+    animation-iteration-count: 100;
     font-size: 60px;
 }
 
@@ -155,20 +163,25 @@ button:hover{
 
 .Middle{
     background-image: linear-gradient(to right, rgb(0, 153, 255), rgb(0, 82, 129));
-    padding: 40px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-align: center;
     color: white;
     font-size: 20px;
+    box-shadow: 0 10px 25px rgb(9, 73, 110)
 }
 
 .Last{
     background-image: linear-gradient(to right, rgb(0, 82, 129), rgb(3, 61, 95));
     border-radius: 0px 20% 2% 0px;
-    padding: 20px;
+    padding: 10px;
     text-align: center; 
     padding-right: 100px;
     padding-top: 150px;
+    padding-left: 40px;
     color: white;
+    box-shadow: 0 10px 25px rgb(9, 73, 110)
 }
 
 .Last h4{

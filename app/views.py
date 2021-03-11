@@ -11,11 +11,6 @@ from .forms import SubscriberForm, ContactForm
 from app import mail
 from flask_mail import Message
 
-###
-# Routing for your application.
-###
-
-
 @app.route('/')
 def home():
     """Render website's home page."""
@@ -40,7 +35,7 @@ def complaint():
             return render_template('result.html',fname=form.get_fname(),lname=form.get_lname(),email=form.get_email(),subject=form.get_subject(),message=form.get_message())
     return render_template('complaint.html',form=form)
 
-@app.route('/Mailing List', methods=['GET', 'POST'])
+@app.route('/Mailing', methods=['GET', 'POST'])
 def Mailing():
     """Render the website's contact page."""
     subscriberform = SubscriberForm()
